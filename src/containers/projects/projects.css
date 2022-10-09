@@ -1,3 +1,57 @@
-body {
-    background: var(--color-bg-2);
+#page2{margin: 0}
+
+.title2 {
+    position: absolute;
+    height: 90px;
+    top: 20px;
+    left: 50%;
+    
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3vw;
+    line-height: 64px;
+    
+    color: #262322;
 }
+
+.font-link2 {
+    position: absolute;
+    width: 72%;
+    height: 100%;
+    right: 0px;
+    top: 135px;
+    margin-left: auto;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1.6vw;
+    line-height: 2vw;
+    
+    color: #262322;
+}   
+
+p {
+    margin-bottom: 1.8vw;
+}
+
+.images2 {
+    position: absolute;
+    width: 650px;
+    height: 100%;
+    left: 1vw;
+    top: 103px;
+}
+
+.gta { 
+    position: absolute;
+    width: 330px;
+    height: 206px;
+    left: 55px;
+    top: 103px;
+    background: url(woodSystem.png)
+}
+/*.thels { background: url(thels.png)}
+.newenvai { background: url(newEnvAI.png)}
+.onmagellanic { background: url(onMagellanic.png)}*/

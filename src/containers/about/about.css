@@ -1,8 +1,4 @@
-* {
-    background-color: #262322;
-}
-
-html, body {margin: 0; height: 100%; overflow: hidden}
+html, body {margin: 0} /* height: 100%; overflow: hidden */
 
 .title {
     position: absolute;
@@ -53,4 +49,19 @@ p {
     background: url(boat.jpg) no-repeat;
     background-size: 100% 100%;
     mix-blend-mode: hard-light;
+}
+
+.icons {
+    position: absolute;
+    left: 85.74%;
+    right: 4.95%;
+    top: 1.56%;
+    bottom: 94.73%;
+    font-size: 1.6vw;
+
+    display: flex;
+    flex-direction: row;
+    grid-gap: 1rem;
+
+    color: #81997E;
 }
