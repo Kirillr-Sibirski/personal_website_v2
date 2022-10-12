@@ -36,22 +36,24 @@ p {
     margin-bottom: 1.8vw;
 }
 
-.images2 {
+.image-grid {
+    --gap: 16px;
+    --num-cols: 4;
+    --row-height: 300px;
+
+    box-sizing: border-box;
+    padding: var(--gap);
+
+    display:    -item;
+    gap: var(--gap);
+
     position: absolute;
-    width: 650px;
-    height: 100%;
-    left: 1vw;
-    top: 103px;
+    width: 25vw;
+    left: 55px;
+    top: 135px;
 }
 
-.gta { 
-    position: absolute;
-    width: 330px;
-    height: 206px;
-    left: 55px;
-    top: 103px;
-    background: url(woodSystem.png)
+.image-grid > img {
+    width: 100%;
+    height: 10%;
 }
-/*.thels { background: url(thels.png)}
-.newenvai { background: url(newEnvAI.png)}
-.onmagellanic { background: url(onMagellanic.png)}*/

@@ -16,11 +16,11 @@ export const Projects = () => {
         <p>I’ve built a lot more projects but I think these are the most successful. More projects coming!</p>
         </span>
     </div>
-    <div className='images2'>
-      <div className='gta'></div>
-      <div className='thels'></div>
-      <div className='newenvai'></div>
-      <div className='onmagellanic'></div>
+    <div className='image-grid'>
+      <img src="woodSystem.png" alt="architecture"></img>
+      <img src="thels.png" alt="architecture"></img>
+      <img src="newEnvAI.png" alt="architecture"></img>
+      <img src="onMagellanic.png" alt="architecture"></img>
     </div>
 </div>
   )
