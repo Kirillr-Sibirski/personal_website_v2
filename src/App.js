@@ -3,16 +3,14 @@ import { Routes, Route, Link} from 'react-router-dom';
 
 import useSound from 'use-sound'
 
-import { About, Projects, SkillsInterests } from './containers';
+import { Main } from './containers';
 import './App.css';
 
 const App = () => {
   return (
     <div className="App">
       <Routes>
-        <Route path='/' element={<About/>} />
-        <Route path='/projects' element={<Projects/>} />
-        <Route path='/skills_interests' element={<SkillsInterests/>} />
+        <Route path='/' element={<Main/>} />
     </Routes>
     </div>
   )
