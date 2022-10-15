@@ -1,9 +1,23 @@
 import React from 'react';
 import './projects.css';
+import { useNavigate } from 'react-router-dom';
 
 export const Projects = () => {
   document.body.style = 'background: #F2E5D7;';
   window.scrollTo(0, 0)
+  const navigate = useNavigate();
+
+  function handleScroll() { 
+    var isAtBottom = document.documentElement.scrollHeight - document.documentElement.scrollTop <= document.documentElement.clientHeight; 
+      
+    if (isAtBottom) { 
+      navigate('/skills_interests');
+    } 
+    
+  } 
+
+  window.addEventListener("scroll", handleScroll);
+
   return (
     <div id="page2">
     <div className="title2">Projects</div>

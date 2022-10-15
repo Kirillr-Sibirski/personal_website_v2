@@ -1,6 +1,8 @@
 import React from 'react'
 import { Routes, Route, Link} from 'react-router-dom';
 
+import useSound from 'use-sound'
+
 import { About, Projects, SkillsInterests } from './containers';
 import './App.css';
 
