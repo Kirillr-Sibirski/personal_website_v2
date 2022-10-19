@@ -87,10 +87,11 @@ export const Main = () => {
   )*/
 
   return (
-    <Parallax pages={3} style={{ top: '0', left: '0', backgroundColor: '#262322' }}>
+    <Parallax pages={3.5} style={{ top: '0', left: '0', backgroundColor: '#262322' }} factor={2}>
       <ParallaxLayer
         offset={0}
-        speed={2}
+        speed={1.5}
+        factor={2}
         style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
          <div className="title">Kirill Rybkov</div>
           <div className="text">
@@ -106,10 +107,13 @@ export const Main = () => {
               < FaTwitter />
               < FaLinkedin />
             </div>
-          <div className='image'></div>
+      </ParallaxLayer>
+      
+      <ParallaxLayer offset={0} speed={0.5} factor={2}>
+        <div className='image'></div>
       </ParallaxLayer>
 
-      <ParallaxLayer offset={1} speed={1} style={{ backgroundColor: '#F2E5D7' }}> 
+      <ParallaxLayer offset={1} speed={1.5} factor={2} style={{ backgroundColor: '#F2E5D7' }}> 
           <div className="title2">Projects</div>
             <div className="text2">
               <span className="font-link2">
@@ -130,7 +134,8 @@ export const Main = () => {
 
       <ParallaxLayer
         offset={2}
-        speed={1}
+        speed={0.5}
+        factor={2}
         style={{ backgroundColor: '#81997E' }}>
           <div className="skills_title">Skills</div>
             <div className="skills_text">
