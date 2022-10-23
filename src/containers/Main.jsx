@@ -11,7 +11,7 @@ export const Main = () => {
         speed={1.5}
         factor={2}
         style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-         <div className="title">Kirill Rybkov</div>
+         <div className="title">Under development</div> 
           <div className="text">
               <span className="font-link">
               <p>&nbsp; Born in Siberian part of Russia. I’m living & studying in Barcelona, Spain. I’m a geek with soldering iron in teeth, having ~2 years coding experience in hands and the same amount of self-development in mind. A lot of creativity and imagination is added and well mixed. Love dreaming about the future of the humankind and space. I believe my mission is to hugely advance and expand the human race, as well as make a revolution.</p>
